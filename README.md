@@ -33,41 +33,9 @@ STACK & TECHNOLOGIES
       │ Data & Infra     │ Docker                                            │
       └──────────────────┴───────────────────────────────────────────────────┘
 
-FUNCTIONS
-```
-```mermaid
----
-config:
-  theme: base
-  themeVariables:
-    fontFamily: "JetBrains Mono, Fira Code, monospace"
-    fontSize: "14px"
-    primaryColor: "#0a1912"
-    primaryTextColor: "#4ade80"
-    primaryBorderColor: "#22c55e"
-    lineColor: "#15803d"
-    treeView:
-      rowIndent: 26
-      padding: 8
-  themeCSS: |
-    svg {
-      background-color: #050a07;
-      border: 1px solid #166534;
-      border-radius: 6px;
-      padding: 16px;
-    }
----
-treeView-beta
-  "functions"
-    "rtop - TUI API explorer tool"
-      "python"
-        "ncurses"
-        "Networking & Threads"
-        "yaml & json"
-    "Qwen - Custom coding agent utilizing Ollama runtime"
-      "python"
-        "Ollama API"
-      "jsonc"
-        "Model configuration - Parameters, Names, etc"
-        "Templates"
+SEE ALSO
+       github(1), fastapi(3), ncurses(3X), python(1), Kali-linux(5)
+       Documentation First:    Always read the manual before running.
+
+CARBONITE(1)                     2026-11                    CARBONITE(1)
 ```

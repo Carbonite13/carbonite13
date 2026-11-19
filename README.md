@@ -30,8 +30,31 @@ STACK & TECHNOLOGIES
       │ Backend & APIs   │ [ Python ] FastAPI, Flask, RenderAPI, Google APIs |
       │ Terminal         │ [ Python, C ] ncurses, rich                       |
       │ Security         │ Burpsuite, PostMan, Nmap, Dirbuster, ...          |
-      │ Data & Infra     │ Docker                                            │
+      │ Data & Infra     │ Docker, Vercel, Render                            │
       └──────────────────┴───────────────────────────────────────────────────┘
+
+EXIT STATUS
+       How execution proceeds under normal and edge-case conditions:
+
+       0      Documentation read thoroughly; implementation matches spec.
+       1      Shortcut or unverified assumption detected; execution halted
+              to inspect the manual and trace the root cause.
+       2      Over-engineered dependency rejected in favor of a lean,
+              standard-library or terminal-native solution.
+       130    Interrupted manually to refactor for clarity and determinism.
+
+HISTORY
+       Started by digging beneath high-level abstractions to understand how
+       systems actually communicate, authenticate, and fail. Gravitation
+       toward Linux internals, POSIX terminal interfaces, and backend
+       architecture shaped a workflow centered on minimalism, predictability,
+       and low overhead over unnecessary abstraction layers.
+
+KNOWN BUGS
+			Exhibits mild allergic reactions to copy-pasted stack traces without
+			reading the underlying spec, and occasionally spends four hours
+			aligning ncurses borders or hardening a schema that already passes
+			tests.
 
 SEE ALSO
        github(1), fastapi(3), ncurses(3X), python(1), Kali-linux(5)

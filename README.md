@@ -38,9 +38,9 @@ EXIT STATUS
       
       0      Documentation read thoroughly; implementation matches spec.
       1      Shortcut or unverified assumption detected; execution halted
-            to inspect the manual and trace the root cause.
+             to inspect the manual and trace the root cause.
       2      Over-engineered dependency rejected in favor of a lean,
-            standard-library or terminal-native solution.
+             standard-library or terminal-native solution.
       130    Interrupted manually to refactor for clarity and determinism.
 
 HISTORY

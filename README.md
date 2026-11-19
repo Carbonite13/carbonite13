@@ -36,8 +36,29 @@ STACK & TECHNOLOGIES
 FUNCTIONS
 ```
 ```mermaid
+---
+config:
+  theme: base
+  themeVariables:
+    fontFamily: "JetBrains Mono, Fira Code, monospace"
+    fontSize: "14px"
+    primaryColor: "#0a1912"
+    primaryTextColor: "#4ade80"
+    primaryBorderColor: "#22c55e"
+    lineColor: "#15803d"
+    treeView:
+      rowIndent: 26
+      padding: 8
+  themeCSS: |
+    svg {
+      background-color: #050a07;
+      border: 1px solid #166534;
+      border-radius: 6px;
+      padding: 16px;
+    }
+---
 treeView-beta
-  "projects"
+  "functions"
     "rtop - TUI API explorer tool"
       "python"
         "ncurses"
